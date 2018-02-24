@@ -1,0 +1,58 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+body {
+    font-family:  Trebuchet MS, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+#logo {
+    width: 25%;
+    float: left;
+    max-width: 200px;
+}
+#whoami {
+    width: 75%;
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+#whoami h1 {
+    font-size: 36px;
+}
+#banner {
+    width: 100%;
+    max-height: 400px;
+    max-width: 1200px;
+}
+section {
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header.container {
+    flex-wrap: nowrap;
+}
+.box {
+}
+.project {
+    width: 390px;
+    padding: 4px;
+}
+.project h3 {
+    background-color: aquamarine;
+    padding-left: 5px;
+}
+.comingsoon {
+    font-size: 200%;
+}
+footer {
+    clear: both;
+}
+.copyright {
+    text-align: center;
+}
