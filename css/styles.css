@@ -1,23 +1,23 @@
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
 body {
     font-family:  Trebuchet MS, sans-serif;
     max-width: 1200px;
-    margin: 0 auto !important;
-    float: none !important;
+    margin: 0 auto;
 }
 
 #logo {
-    width: 25%;
     float: left;
-    max-width: 200px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 #whoami {
-    width: 75%;
-    float: right;
     text-align: right;
     text-transform: uppercase;
     margin-right: 5px;
@@ -32,15 +32,18 @@ body {
     max-height: 400px;
     max-width: 1200px;
 }
-
 .container {
     width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+.logo-box {
+    flex: 1;
+}
 
-header.container {
-    flex-wrap: nowrap;
+.whoami-box {
+    flex: 3;
 }
 
 .box {
@@ -51,7 +54,7 @@ header.container {
     padding: 4px;
 }
 
-.project h3 {
+.project-title {
     background-color: aquamarine;
     padding-left: 5px;
 }
